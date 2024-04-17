@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Century Gothic";
+    src:  local,
+    url("centurygothic.ttf") format("ttf"); /* Формат TrueType */
+}
+
+body {
+    font-family: "Century Gothic", sans-serif; /* Использование шрифта на странице */
+    text-align: center;
+    background-color: #ffffff;
+
+    padding: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10 px;
+}
+h1 {
+    font-size: 150pt;
+    color: #58c7be;
+    margin-top: 5;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 20pt;
+    color: #fad2e3;
+    margin-top: 5;
+    margin-bottom: 0;
+    text-align: left;
+}
+h3 {
+    font-size: 20pt;
+    color: #fad2e3;
+    margin-top: 20;
+    margin-bottom: 0;
+    text-align: left;
+}
+p {
+    color: #666;
+    text-align: left;
+    margin-bottom: 15;
+}
+
+.image-container img {
+    text-align: center;
+    width: 500px; 
+    height: auto;
+}
+
+.about-me {
+    width: 90%; /* Пример: установка ширины блока в 80% от ширины родительского элемента */
+    margin-bottom: 50px;
+}
+
+.contacts {
+    display: inline-block;
+    margin-right: 200px; /* Пример: добавление небольшого отступа между элементами */
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.contact-info {
+    display: inline-block; /* Размещение элементов в ряд */
+    margin: 10px; /* Отступы между элементами */
+    text-align: center; /* Центрирование содержимого */
+}
+
+.contact-info img {
+    width: 50px; /* Ширина изображения */
+    height: 50px; /* Высота изображения */
+    
+}
+
+.contact-info:nth-child(2) {
+    margin-right: 80px; /* Отступ снизу */
+    margin-left: 50px;
+}
+
